@@ -12,5 +12,5 @@ module.exports = function accidentalNumber(acc) {
 
 module.exports.interval = function accidentalInterval(acc) {
   var val = accidentalValues[acc];
-  return [-4 * val, 7 * val];
+  return [0, val];
 }
